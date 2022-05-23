@@ -1,6 +1,7 @@
 var singleStudentResult = document.getElementById('single_student_result')
 var listStudentResult = document.getElementById('output')
 var addUserDetail = document.getElementById('addUserDetail')
+
 function addStudentData(student) {
     let idElem = document.getElementById('id')
     idElem.innerHTML = student.id
